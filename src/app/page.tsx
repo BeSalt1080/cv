@@ -7,8 +7,10 @@ import { Education } from "./components/Education";
 import { Summary } from "./components/Summary";
 import { Skills } from "./components/Skills";
 import { Header } from "./components/Header";
+import { Achievement } from "./components/Achievement";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://cv.besalt.site"),
   title: `${RESUME_DATA.name} - Resume`,
   description: RESUME_DATA.about,
   openGraph: {
@@ -18,7 +20,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://cv.jarocki.me/opengraph-image",
+        url: "https://cv.besalt.site/opengraph-image",
         width: 1200,
         height: 630,
         alt: `${RESUME_DATA.name}'s profile picture`,
@@ -29,7 +31,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${RESUME_DATA.name} - Resume`,
     description: RESUME_DATA.about,
-    images: ["https://cv.jarocki.me/opengraph-image"],
+    images: ["https://cv.besalt.site/opengraph-image"],
   },
 };
 
@@ -58,7 +60,7 @@ function getCommandMenuLinks() {
 export default function ResumePage() {
   return (
     <main
-      className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-11 md:p-16"
+      className="container relative mx-auto scroll-my-12 overflow-auto p-4 md:p-16 print:p-11"
       id="main-content"
     >
       <div className="sr-only">
@@ -81,6 +83,8 @@ export default function ResumePage() {
           <Skills skills={RESUME_DATA.skills} />
 
           <Projects projects={RESUME_DATA.projects} />
+
+          <Achievement achievement={RESUME_DATA.achievements} />
         </div>
       </section>
 

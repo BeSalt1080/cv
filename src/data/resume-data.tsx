@@ -1,241 +1,144 @@
-import {
-  ClevertechLogo,
-  ConsultlyLogo,
-  JojoMobileLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Shinichi Wijaya",
+  initials: "SW",
+  location: "West Jakarta, Indonesia, WIB",
+  locationLink: "https://www.google.com/maps/place/West+Jakarta",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Full-stack web developer experienced in Next.js, React, and MySQL, with strong problem-solving and teamwork skills honed through robotics and competition achievements.",
   summary: (
     <>
-      Frontend-focused Full Stack Engineer specializing in high-performance
-      React applications, scalable Node.js services, and real-time collaboration
-      systems. Experienced in technical architecture design and remote team
-      leadership.
+      Passionate full-stack web developer currently pursuing a degree at
+      Tarumanagara University, with expertise in Next.js, React, Tailwind CSS,
+      and MySQL. Skilled in adapting to diverse technologies like Vue.js,
+      Laravel, and MongoDB, and experienced in leveraging teamwork and
+      problem-solving skills through robotics development internships and
+      leadership in game development competitions. Driven to build impactful web
+      applications while growing professionally in innovative environments.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl:
+    "https://media.licdn.com/dms/image/v2/D5603AQEqZLd0saXIcQ/profile-displayphoto-shrink_800_800/B56ZOw0F8_GkAc-/0/1733838266650?e=1743638400&v=beta&t=BU5QNndRzfUmo5_bKS46tizHpMMzESQJPWozQOJ89tM",
+  personalWebsiteUrl: "https://besalt.site",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "wijayashinichi@gmail.com",
+    tel: "+6287804035353",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/BeSalt1080",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/shinichi-wijaya/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/besalt1080",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "SMK Cinta Kasih Tzu Chi",
+      degree: "Diploma in Software Engineering",
+      start: "2020",
+      end: "2024",
+    },
+    {
+      school: "Tarumanagara University",
+      degree: "Bachelor's Degree in Information Technology",
+      start: "2024",
+      end: "Present",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
-      logo: ConsultlyLogo,
-      start: "2024",
-      end: null,
-      description: (
-        <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
-            </li>
-            <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
-            </li>
-            <li>
-              Implementing system-wide monitoring and security improvements
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description: (
-        <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
-            </li>
-            <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
-            </li>
-            <li>
-              Open source contributions to Relay DevTools and React i18n tooling
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description: (
-        <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
-          <ul className="list-inside list-disc">
-            <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
-            </li>
-            <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
-            </li>
-            <li>
-              Led development teams across multiple successful client projects
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
+      company: "PT Megah Alam Semesta",
+      link: "https://megahalamsemesta.web.indotrading.com/about",
+      badges: ["On Site", "Arduino", "Problem Solving"],
+      title: "Robotics Developer",
+      start: "07/2022",
+      end: "09/2022",
       description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
+        "Collaborated with team members to brainstorm ideas, develop prototypes, and ensure successful implementation of robotic solutions.",
     },
   ],
   skills: [
-    "React/Next.js/Remix",
-    "TypeScript",
+    "React/Next.js",
     "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "MySQL",
+    "TypeScript",
+    "Vue.js",
+    "Laravel",
+    "MongoDB",
+    "Flask",
+    "Git",
+    "Linux",
+    "C#",
+    "UI/UX",
+    "Unity",
+    "Team Work",
+    "Problem Solving",
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      title: "Kuma",
+      techStack: ["Vue.js", "Flask", "MySQL", "Tailwind CSS"],
       description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
-      logo: MonitoLogo,
+        "Commissioned university project: Full-stack e-commerce platform for shoe sales featuring CMS, search filters, wishlist, JWT authentication, and invoice system. Built with Vue.js frontend, Flask backend, and MySQL database.",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "GitHub Repo",
+        href: "https://github.com/BeSalt1080/kuma",
       },
     },
     {
-      title: "Consultly",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
-      ],
+      title: "Pengaduan Sekolah",
+      techStack: ["Laravel", "Vue.js", "MySQL", "Tailwind CSS"],
       description:
-        "Platform for online consultations with real-time video meetings and scheduling",
-      logo: ConsultlyLogo,
+        "School issue-reporting CRUD application with Laravel backend and Vue.js frontend. Demonstrates full-stack development skills through streamlined issue tracking and management features.",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "GitHub Repo",
+        href: "https://github.com/BeSalt1080/pengaduanSekolah",
       },
     },
+  ],
+  achievements: [
     {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      title: "GameJam+ Indonesia",
+      badges: ["Unity", "Team Work", "Leadership", "Problem Solving"],
+      position: "Honorable Mention for Best Pitch",
+      date: "11/2024",
       description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
-      logo: MonitoLogo,
-      link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
-      },
+        "Collaborated with a team to design and develop a game titled 'One Last Game' within a tight 3-day deadline, using Unity. Chose 'Sprite & Sphere' as the theme, creating a unique and engaging gameplay experience. Earned an Honorable Mention for Best Pitch for effectively presenting our game concept, showcasing strong teamwork, leadership, and problem-solving skills under pressure.",
+    },
+    {
+      title: "Hology 7.0 Game Development",
+      badges: ["Unity", "Team Work", "Leadership", "Problem Solving"],
+      position: "Participant",
+      date: "09/2024",
+      description:
+        "Participated in a competitive game development event, working with a team to create a functional game prototype using Unity. Contributed to brainstorming, design, and development phases, showcasing teamwork, leadership, and problem-solving abilities under time constraints.",
+    },
+    {
+      title: "IT Fest 4.0 Game Making",
+      badges: ["Unity", "Team Work", "Leadership", "Problem Solving"],
+      position: "Participant",
+      date: "08/2024",
+      description:
+        "Engaged in a game development competition, collaborating with a team to build a game prototype using Unity. Played an active role in planning, coding, and debugging, while demonstrating strong teamwork, leadership, and creative problem-solving skills.",
+    },
+    {
+      title: "LKS IT Software Solution in West Jakarta",
+      badges: ["Laravel", "Vue.js", "Tailwind CSS", "Problem Solving"],
+      position: "5th Place",
+      date: "08/2023",
+      description:
+        "Competed in a regional IT competition, securing 5th Place by developing a software solution using Laravel, Vue.js, and Tailwind CSS. Applied problem-solving skills to design and implement a functional application, showcasing technical expertise and the ability to work under pressure.",
     },
   ],
 } as const;
