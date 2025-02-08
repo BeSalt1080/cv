@@ -46,7 +46,7 @@ export const RESUME_DATA = {
     {
       school: "SMK Cinta Kasih Tzu Chi",
       degree: "Diploma in Software Engineering",
-      start: "2020",
+      start: "2021",
       end: "2024",
     },
     {
