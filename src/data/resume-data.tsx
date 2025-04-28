@@ -67,6 +67,16 @@ export const RESUME_DATA = {
       description:
         "Collaborated with team members to brainstorm ideas, develop prototypes, and ensure successful implementation of robotic solutions.",
     },
+    {
+      company: "PT Panasonic Gobel Indonesia",
+      link: "https://www.panasonic.com/id/",
+      badges: ["On Site", "Laravel", "Go"],
+      title: "Management Information System",
+      start: "02/2025",
+      end: "03/2025",
+      description:
+        "Collaborated with team members to brainstorm ideas, develop prototypes, and ensure successful implementation of robotic solutions.",
+    },
   ],
   skills: [
     "React/Next.js",
