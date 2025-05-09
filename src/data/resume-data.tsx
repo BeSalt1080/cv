@@ -6,20 +6,20 @@ export const RESUME_DATA = {
   location: "West Jakarta, Indonesia, WIB",
   locationLink: "https://www.google.com/maps/place/West+Jakarta",
   about:
-    "Full-stack web developer experienced in Next.js, React, and MySQL, with strong problem-solving and teamwork skills honed through robotics and competition achievements.",
+    "Full-stack web developer with experience in Next.js and Laravel, strong problem-solving skills, and a proven ability to contribute effectively in collaborative, fast-paced environments",
   summary: (
     <>
       Passionate full-stack web developer currently pursuing a degree at
-      Tarumanagara University, with expertise in Next.js, React, Tailwind CSS,
-      and MySQL. Skilled in adapting to diverse technologies like Vue.js,
-      Laravel, and MongoDB, and experienced in leveraging teamwork and
-      problem-solving skills through robotics development internships and
-      leadership in game development competitions. Driven to build impactful web
-      applications while growing professionally in innovative environments.
+      Tarumanagara University, with hands-on experience from a web development
+      internship. Proficient in modern frameworks like Next.js and Laravel, and
+      skilled in working with both relational and non-relational databases such
+      as SQL Server and MongoDB. Adept at collaborating in team environments,
+      solving complex problems, and building scalable, user-focused web
+      applications. Eager to grow professionally and contribute to impactful,
+      innovative projects.
     </>
   ),
-  avatarUrl:
-    "https://media.licdn.com/dms/image/v2/D5603AQEqZLd0saXIcQ/profile-displayphoto-shrink_800_800/B56ZOw0F8_GkAc-/0/1733838266650?e=1743638400&v=beta&t=BU5QNndRzfUmo5_bKS46tizHpMMzESQJPWozQOJ89tM",
+  avatarUrl: "/profile.jpeg",
   personalWebsiteUrl: "https://besalt.site",
   contact: {
     email: "wijayashinichi@gmail.com",
@@ -70,28 +70,26 @@ export const RESUME_DATA = {
     {
       company: "PT Panasonic Gobel Indonesia",
       link: "https://www.panasonic.com/id/",
-      badges: ["On Site", "Laravel", "Go"],
-      title: "Management Information System",
+      badges: ["On Site", "Laravel", "Go", "NextJS"],
+      title: "Management Information System Intern",
       start: "02/2025",
-      end: "03/2025",
+      end: "05/2025",
       description:
         "Collaborated with team members to brainstorm ideas, develop prototypes, and ensure successful implementation of robotic solutions.",
     },
   ],
   skills: [
-    "React/Next.js",
-    "Tailwind CSS",
-    "MySQL",
-    "TypeScript",
-    "Vue.js",
     "Laravel",
+    "SQL Server",
+    "MySQL",
+    "Postgres",
+    "Tailwind CSS",
+    "React/Next.js",
+    "TypeScript",
     "MongoDB",
-    "Flask",
     "Git",
-    "Linux",
-    "C#",
-    "UI/UX",
-    "Unity",
+    "Go",
+    "ASP.NET",
     "Team Work",
     "Problem Solving",
   ],
@@ -115,6 +113,12 @@ export const RESUME_DATA = {
         label: "GitHub Repo",
         href: "https://github.com/BeSalt1080/pengaduanSekolah",
       },
+    },
+    {
+      title: "Optiflow",
+      techStack: ["ASP.NET", "NextJS", "Postgres"],
+      description:
+        "Commissioned to help a full-featured admin-dashboard, enabling product management, inventory tracking, and real-time status monitoring. Features include CRUD operations for products, and insights into product availability and location.",
     },
   ],
   achievements: [
