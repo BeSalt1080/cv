@@ -76,8 +76,8 @@ export const RESUME_DATA = {
       end: "05/2025",
       description:
         `A dynamic Full Stack Developer with 3 months of hands-on experience in building and maintaining web applications. 
-        Proficient in Next.js for full-stack development and Go for backend services, with a strong foundation in SQL Server for database management. 
-        Successfully delivered 3 projects, including a fully functional raffle system, secure local web PDF manipulation tools, 
+        Proficient in Next.js and Laravel for full-stack development and Go for backend services, with a strong foundation in SQL Server for database management. 
+        Successfully delivered 3 projects, including a fully functional raffle system, local web PDF manipulation tools, 
         and an efficient ETL pipeline for data warehousing. Additionally, provided support and maintenance for legacy Laravel projects, demonstrating adaptability across different tech stacks.`,
     },
   ],
