@@ -73,7 +73,7 @@ export const RESUME_DATA = {
       badges: ["On Site", "Laravel", "Go", "NextJS"],
       title: "Management Information System Intern",
       start: "02/2025",
-      end: "05/2025",
+      end: "06/2025",
       description:
         `A dynamic Full Stack Developer with 3 months of hands-on experience in building and maintaining web applications. 
         Proficient in Next.js and Laravel for full-stack development and Go for backend services, with a strong foundation in SQL Server for database management. 
